@@ -6,7 +6,7 @@ export const App = () => {
   const [state, dispatch] = React.useReducer(reducer, initState);
 
   // this causes it somehow? two cases try using
-  // 1. L9-L13 + L37 (uncomment L40)
+  // 1. L12-L16 + L39 (uncomment L40)
   // 2. L40 directly (uncomment step 1 lines)
 
   const index = 0;
