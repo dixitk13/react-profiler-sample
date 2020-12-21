@@ -4,8 +4,8 @@ interface ChartState {
   streams: string;
 }
 export const initState: ChartState = {
-  datapoints: "1000",
-  streams: "3",
+  datapoints: "100",
+  streams: "1",
   charts: "1",
 };
 

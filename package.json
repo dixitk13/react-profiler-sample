@@ -4,8 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "parcel public/index.html --open",
+    "start": "parcel public/index.html --no-source-maps --open ",
     "build": "parcel build public/index.html",
+    "clean": "rm -rf ./.cache ./dist",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
